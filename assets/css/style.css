@@ -44,14 +44,14 @@ body {
 
 /* Ceci est le bloc Parent du bonton Explorer nos restaurants */
 
-.explorer {
+.bloc_explorer {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 18px;
 }
 
-.explorer__title2 {
+.bloc_explorer h2 {
   display: block;
   margin-left: 10%;
   margin-right: 10%;
@@ -60,7 +60,7 @@ body {
 
 /* Ceci sont les éléments du bonton Explorer nos restaurants  */
 
-.explorer__bouton {
+.bloc_explorer__bouton {
   border: 1px solid;
   border-radius: 60px;
   background: linear-gradient(180deg, var(--second-color), var(--prim-color));
@@ -110,41 +110,6 @@ body {
 
 .fonctionnemt__bouton__num_1 {
   position: absolute;
-  font-size: 14px;
-  font-weight: normal;
-  left: 6px;
+  left: 5px;
   top: 2px;
-}
-
-.restaurants {
-  padding: 5%;
-}
-
-.restaurant__allcards {
-  display: flex;
-  flex-direction: invert column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
-
-.restaurant__allcards__card {
-  /* height: 250px; */
-  border: solid 5px red;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.restaurant__allcards__card__img {
-  box-sizing: border-box;
-  height: 11.25rem;
-  object-fit: cover;
-  width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.restaurant__allcards__card__titre {
 }
