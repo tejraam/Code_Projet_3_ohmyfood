@@ -9,6 +9,7 @@
   --ter-color: #99e2d0;
   --qad-color: #008766;
   --fit-color: #f6f6f6;
+  --footer-color: #353535;
 }
 
 header {
@@ -180,4 +181,20 @@ body {
 
 .restaurant__allcards__card__titre i {
   font-size: 25px;
+}
+
+footer {
+  background-color: var(--footer-color);
+  color: var(--fit-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+footer h3 {
+  font-family: "shrikhand";
+}
+
+footer span {
+  margin-bottom: 0.6rem;
 }
