@@ -1,0 +1,274 @@
+/*********** General ***********/
+* {
+  font-family: "roboto";
+}
+
+:root {
+  --prim-color: #9356dc;
+  --second-color: #ff79da;
+  --ter-color: #99e2d0;
+  --qad-color: #008766;
+  --fit-color: #f6f6f6;
+  --footer-color: #353535;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: "shrikhand";
+  color: var(--prim-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 1px;
+}
+
+.ohmyfood__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--fit-color);
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #eaeaea;
+  padding: 0.938rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+/* Ceci est le bloc Parent du bonton Explorer nos restaurants */
+
+.explorer {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.explorer__title2 {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24px;
+}
+
+/* Ceci sont les éléments du bonton Explorer nos restaurants  */
+
+.explorer__bouton {
+  border: 1px solid;
+  border-radius: 60px;
+  background: linear-gradient(180deg, var(--second-color), var(--prim-color));
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Ceci est le bloc Parent Section Fonctionnement */
+
+.fonctionnement {
+  padding: 5%;
+  gap: 10px;
+  background-color: white;
+}
+
+/* Ceci est le bloc flis Section Fonctionnement */
+
+.fonctionnement__bouton {
+  display: flex;
+  background-color: var(--fit-color);
+  border-radius: 16px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.158);
+  font-size: 16px;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Chiffre sur la bordure des boutons */
+
+.fonctionnement__bouton__num {
+  border-radius: 80px;
+  background-color: var(--prim-color);
+  color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 16px;
+  size: 14px;
+  position: absolute;
+  left: -11px;
+  /* top: 5px; */
+}
+
+.fonctionnemt__bouton__num_1 {
+  position: absolute;
+  font-size: 14px;
+  font-weight: normal;
+  left: 6px;
+  top: 2px;
+}
+
+.restaurants {
+  padding: 5%;
+}
+
+.restaurant__allcards {
+  display: flex;
+  flex-direction: invert column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.restaurant__allcards__card {
+  position: relative;
+  border-radius: 1.25px;
+  margin-bottom: 1.563rem;
+}
+
+.restaurant__allcards__card__new {
+  position: absolute;
+  right: 24px;
+  top: 14px;
+  background-color: var(--ter-color);
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 3px;
+  font-size: 16px;
+  color: var(--qad-color);
+}
+
+.restaurant__allcards__card__img {
+  box-sizing: border-box;
+  height: 11.25rem;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -5px;
+}
+
+.restaurant__allcards__card__titre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.restaurant__allcards__card__titre h3 {
+  margin-bottom: -12px;
+  margin-top: 10px;
+}
+
+.restaurant__allcards__card__titre i {
+  font-size: 25px;
+}
+
+footer {
+  background-color: var(--footer-color);
+  color: var(--fit-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+footer h3 {
+  font-family: "shrikhand";
+}
+
+footer span {
+  margin-bottom: 0.6rem;
+}
+
+/* Page 2 Menu Palette du Goût */
+
+.menu__img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.palette {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: var(--fit-color);
+  position: relative;
+  z-index: 3;
+  margin-top: -70px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.palette__title h2 {
+  font-family: "shrikhand";
+}
+
+.palette__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .palette__menu__card{
+margin-bottom: 10px;
+} */
+
+.palette__menu__card__text{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.158);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.palette__menu__card__text h4{
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+.palette__menu__card__text p{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+
+.palette__bouton{
+    border: 1px solid;
+    border-radius: 60px;
+    background: linear-gradient(180deg, var(--second-color), var(--prim-color));
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  text-align: center;
+  }

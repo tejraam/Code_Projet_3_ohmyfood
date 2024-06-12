@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*********** General ***********/
 * {
   font-family: "roboto";
@@ -19,7 +20,6 @@ header {
   height: 65px;
   position: relative;
 }
-
 header h1 {
   font-family: "shrikhand";
   color: black;
@@ -28,7 +28,6 @@ header h1 {
   line-height: 43.74px;
   margin: auto;
 }
-
 header i {
   position: absolute;
   margin-top: auto;
@@ -60,8 +59,7 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
 }
 
-/* Ceci est le bloc Parent du bonton Explorer nos restaurants */
-
+/* Ceci est le bloc Parent du bouton Explorer nos restaurants */
 .explorer {
   text-align: center;
   margin-left: 10%;
@@ -69,16 +67,12 @@ body {
   font-size: 18px;
   padding-bottom: 30px;
 }
-
 .explorer__title2 {
   display: block;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 24px;
 }
-
-/* Ceci sont les éléments du bonton Explorer nos restaurants  */
-
 .explorer__bouton {
   border: 1px solid;
   border-radius: 60px;
@@ -89,15 +83,11 @@ body {
 }
 
 /* Ceci est le bloc Parent Section Fonctionnement */
-
 .fonctionnement {
   padding: 5%;
   gap: 10px;
   background-color: white;
 }
-
-/* Ceci est le bloc flis Section Fonctionnement */
-
 .fonctionnement__bouton {
   display: flex;
   background-color: var(--fit-color);
@@ -112,9 +102,6 @@ body {
   margin-bottom: 10px;
   position: relative;
 }
-
-/* Chiffre sur la bordure des boutons */
-
 .fonctionnement__bouton__num {
   border-radius: 80px;
   background-color: var(--prim-color);
@@ -127,8 +114,7 @@ body {
   left: -11px;
   /* top: 5px; */
 }
-
-.fonctionnemt__bouton__num_1 {
+.fonctionnement__bouton__num.fonctionnement__bouton__num_1 {
   position: absolute;
   font-size: 14px;
   font-weight: normal;
@@ -142,18 +128,16 @@ body {
 
 .restaurant__allcards {
   display: flex;
-  flex-direction: invert column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
 }
-
 .restaurant__allcards__card {
   position: relative;
   border-radius: 1.25px;
   margin-bottom: 1.563rem;
 }
-
 .restaurant__allcards__card__new {
   position: absolute;
   right: 24px;
@@ -167,7 +151,6 @@ body {
   font-size: 16px;
   color: var(--qad-color);
 }
-
 .restaurant__allcards__card__img {
   box-sizing: border-box;
   height: 11.25rem;
@@ -177,7 +160,6 @@ body {
   border-top-right-radius: 20px;
   margin-bottom: -5px;
 }
-
 .restaurant__allcards__card__titre {
   display: flex;
   flex-direction: row;
@@ -189,12 +171,10 @@ body {
   padding-left: 15px;
   padding-right: 25px;
 }
-
 .restaurant__allcards__card__titre h3 {
   margin-bottom: -12px;
   margin-top: 10px;
 }
-
 .restaurant__allcards__card__titre i {
   font-size: 25px;
 }
@@ -206,20 +186,17 @@ footer {
   flex-direction: column;
   padding-left: 1rem;
 }
-
 footer h3 {
   font-family: "shrikhand";
   font-size: 18px;
   font-weight: 400;
   line-height: 26.24px;
 }
-
 footer span {
   margin-bottom: 0.6rem;
 }
 
 /* Page 2 Menu Palette du Goût */
-
 .menu__img {
   width: 100%;
   height: 275px;
@@ -239,15 +216,6 @@ footer span {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-.palette__title h2 {
-  font-family: "shrikhand";
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: auto;
-  margin-top: auto;
-}
-
 .palette__title {
   display: flex;
   justify-content: space-between;
@@ -255,7 +223,13 @@ footer span {
   padding-right: 30px;
   margin-top: 20px;
 }
-
+.palette__title h2 {
+  font-family: "shrikhand";
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: auto;
+  margin-top: auto;
+}
 .palette__menu__card h3 {
   font-family: "roboto";
   font-weight: 300;
@@ -265,7 +239,6 @@ footer span {
   border-bottom: solid 3px #99e2d0;
   width: 10%;
 }
-
 .palette__menu__card__text {
   display: flex;
   justify-content: space-between;
@@ -278,17 +251,14 @@ footer span {
   align-items: center;
   margin-bottom: 10px;
 }
-
 .palette__menu__card__text h4 {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
 .palette__menu__card__text p {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
 .palette__bouton {
   border: 1px solid;
   border-radius: 60px;
@@ -303,3 +273,5 @@ footer span {
   width: 60%;
   text-align: center;
 }
+
+/*# sourceMappingURL=style.css.map */
