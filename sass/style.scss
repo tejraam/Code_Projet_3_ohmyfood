@@ -63,15 +63,15 @@ body {
 /* Ceci est le bloc Parent du bouton Explorer nos restaurants */
 .explorer {
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  // margin-left: 6%;
+  // margin-right: 6%;
   font-size: 18px;
   padding-bottom: 30px;
 
   &__title2 {
     display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
     font-size: 24px;
   }
 
@@ -82,6 +82,13 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: white;
+    margin-left: 16%;
+    margin-right:16%;
+  }
+
+  p{
+margin-left: 10px;
+margin-right: 10px;
   }
 }
 
@@ -104,6 +111,7 @@ body {
     gap: 15px;
     margin-bottom: 10px;
     position: relative;
+    height: 4.5rem;
 
     &__num {
       border-radius: 80px;
@@ -112,12 +120,12 @@ body {
       box-sizing: border-box;
       padding: 10px;
       height: 16px;
+      width: 16px;
       size: 14px;
       position: absolute;
       left: -11px;
       /* top: 5px; */
-
-      &.fonctionnement__bouton__num_1 {
+      &__1{
         position: absolute;
         font-size: 14px;
         font-weight: normal;
@@ -134,7 +142,7 @@ body {
 
 .restaurant__allcards {
   display: flex;
-  flex-direction: column;
+  flex-direction: invert column;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
